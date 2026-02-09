@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的個人網站 | Developer & Creator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">MyPortfolio.</div>
+        <ul class="nav-links">
+            <li><a href="#home">首頁</a></li>
+            <li><a href="#about">關於我</a></li>
+            <li><a href="#projects">專案作品</a></li>
+            <li><a href="#contact">聯絡我</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>你好，我是 <span class="highlight">開發者</span></h1>
+            <p>專注於 Web 開發與遊戲設計的創造者。</p>
+            <a href="#projects" class="btn">查看我的作品</a>
+        </div>
+    </section>
+
+    <section id="about" class="container">
+        <h2 class="section-title">關於我</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>我是一名熱愛技術的開發者，喜歡探索從網頁前端到後端部署的各種可能性。最近我也投入於使用 <strong>Godot Engine</strong> 開發 2D 遊戲，享受將創意轉化為互動體驗的過程。</p>
+                <p>我也熱衷於學習新技術，例如網站自動化、資料爬蟲以及雲端部署架構。</p>
+                
+                <div class="skills">
+                    <span class="skill-tag">Web Development</span>
+                    <span class="skill-tag">Godot (2D Game)</span>
+                    <span class="skill-tag">Python / Scraping</span>
+                    <span class="skill-tag">Vercel & Cloudflare</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="container bg-light">
+        <h2 class="section-title">精選專案</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-img" style="background-color: #ddd; height: 200px; display: flex; align-items: center; justify-content: center;">
+                    <i class="fa-solid fa-plane-departure fa-3x" style="color: #666;"></i>
+                </div>
+                <div class="project-info">
+                    <h3>旅遊資訊平台</h3>
+                    <p>一個整合旅遊資訊的網站專案。使用現代 Web 技術構建，並專注於 SEO 與使用者體驗。</p>
+                    <div class="project-links">
+                        <a href="#">查看 Demo</a>
+                        <a href="#"><i class="fab fa-github"></i> Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-img" style="background-color: #ddd; height: 200px; display: flex; align-items: center; justify-content: center;">
+                    <i class="fa-solid fa-gamepad fa-3x" style="color: #666;"></i>
+                </div>
+                <div class="project-info">
+                    <h3>2D 冒險遊戲</h3>
+                    <p>使用 Godot 引擎開發的 2D 遊戲作品。包含角色控制、場景切換與互動機制。</p>
+                    <div class="project-links">
+                        <a href="#">試玩影片</a>
+                        <a href="#"><i class="fab fa-github"></i> Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-img" style="background-color: #ddd; height: 200px; display: flex; align-items: center; justify-content: center;">
+                    <i class="fa-solid fa-code fa-3x" style="color: #666;"></i>
+                </div>
+                <div class="project-info">
+                    <h3>自動化工具</h3>
+                    <p>基於 Python 的自動化腳本與資料處理工具，提升工作效率。</p>
+                    <div class="project-links">
+                        <a href="#"><i class="fab fa-github"></i> Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="container">
+        <h2 class="section-title">聯絡我</h2>
+        <div class="contact-wrapper">
+            <p>有興趣合作或有任何問題？歡迎透過以下方式聯繫。</p>
+            <a href="mailto:your.email@example.com" class="btn">發送郵件</a>
+            
+            <div class="social-links">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 MyPortfolio. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
