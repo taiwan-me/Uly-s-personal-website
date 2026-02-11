@@ -251,4 +251,8 @@ footer {
         from { opacity: 0; transform: translateX(50px); }
         to { opacity: 1; transform: translateX(0); }
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> f210662eaf546318b8aae9d78d2441ec3d7ab0c8

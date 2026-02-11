@@ -32,4 +32,8 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             behavior: 'smooth'
         });
     });
+<<<<<<< HEAD
 });
+=======
+});
+>>>>>>> f210662eaf546318b8aae9d78d2441ec3d7ab0c8
