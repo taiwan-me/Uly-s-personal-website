@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>我的個人網站 | Developer & Creator</title>
+    <title>Uly 的個人作品集 | 開發者 & 創意工作者</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-
+    <!-- 導航欄 -->
     <nav class="navbar">
-        <div class="logo">MyPortfolio.</div>
+        <div class="logo">Uly<span class="logo-dot">.</span></div>
         <ul class="nav-links">
             <li><a href="#home">首頁</a></li>
             <li><a href="#about">關於我</a></li>
@@ -24,99 +24,147 @@
         </div>
     </nav>
 
+    <!-- 首頁 Hero Section -->
     <section id="home" class="hero">
         <div class="hero-content">
-            <h1>你好，我是 <span class="highlight">開發者</span></h1>
-            <p>專注於 Web 開發與遊戲設計的創造者。</p>
-            <a href="#projects" class="btn">查看我的作品</a>
-        </div>
-    </section>
-
-    <section id="about" class="container">
-        <h2 class="section-title">關於我</h2>
-        <div class="about-content">
-            <div class="about-text">
-                <p>我是一名熱愛技術的開發者，喜歡探索從網頁前端到後端部署的各種可能性。最近我也投入於使用 <strong>Godot Engine</strong> 開發 2D 遊戲，享受將創意轉化為互動體驗的過程。</p>
-                <p>我也熱衷於學習新技術，例如網站自動化、資料爬蟲以及雲端部署架構。</p>
-                
-                <div class="skills">
-                    <span class="skill-tag">Web Development</span>
-                    <span class="skill-tag">Godot (2D Game)</span>
-                    <span class="skill-tag">Python / Scraping</span>
-                    <span class="skill-tag">Vercel & Cloudflare</span>
+            <div class="hero-text">
+                <h1>你好，我是 <span class="highlight">Uly</span></h1>
+                <p class="hero-subtitle">工程藝術家 | Web 開發者 | 遊戲設計師</p>
+                <p class="hero-description">專注於創意與技術結合的開發者，用代碼打造有趣的數位體驗。</p>
+                <a href="#projects" class="btn btn-primary">查看我的作品</a>
+            </div>
+            <div class="hero-visual">
+                <div class="floating-box">
+                    <i class="fas fa-code"></i>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="projects" class="container bg-light">
-        <h2 class="section-title">精選專案</h2>
+    <!-- 關於我 Section -->
+    <section id="about" class="container about-section">
+        <div class="section-header">
+            <h2 class="section-title">關於我</h2>
+            <div class="title-underline"></div>
+        </div>
+        <div class="about-content">
+            <div class="about-text">
+                <h3>熱愛技術與創意的開發者</h3>
+                <p>我是一名全棧開發者，熱衷於探索從 Web 前端到後端部署的各種可能性。最近我深入學習並使用 <strong>Godot Engine</strong> 開發 2D 遊戲，享受將創意轉化為互動體驗的過程。</p>
+                <p>我也積極學習新技術，包括網站自動化、資料爬蟲、雲端架構和 DevOps。相信持續學習和創新是成長的關鍵。</p>
+                
+                <div class="skills-section">
+                    <h4>核心技能</h4>
+                    <div class="skills">
+                        <span class="skill-tag">HTML/CSS/JavaScript</span>
+                        <span class="skill-tag">Godot (2D Game)</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Web Scraping</span>
+                        <span class="skill-tag">Vercel & Cloudflare</span>
+                        <span class="skill-tag">Git & GitHub</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 精選專案 Section -->
+    <section id="projects" class="container projects-section">
+        <div class="section-header">
+            <h2 class="section-title">精選專案</h2>
+            <div class="title-underline"></div>
+        </div>
         <div class="projects-grid">
+            <!-- 專案卡片 1 -->
             <div class="project-card">
-                <div class="project-img" style="background-color: #ddd; height: 200px; display: flex; align-items: center; justify-content: center;">
-                    <i class="fa-solid fa-plane-departure fa-3x" style="color: #666;"></i>
+                <div class="project-img">
+                    <div class="project-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
                 </div>
                 <div class="project-info">
                     <h3>旅遊資訊平台</h3>
-                    <p>一個整合旅遊資訊的網站專案。使用現代 Web 技術構建，並專注於 SEO 與使用者體驗。</p>
+                    <p>整合旅遊資訊的現代化網站，採用響應式設計與優化的 SEO。提供用戶友善的介面和快速的載入速度。</p>
+                    <div class="project-tags">
+                        <span class="tag">HTML/CSS</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">API</span>
+                    </div>
                     <div class="project-links">
-                        <a href="#">查看 Demo</a>
-                        <a href="#"><i class="fab fa-github"></i> Code</a>
+                        <a href="#" class="link-btn">查看 Demo</a>
+                        <a href="#" class="link-btn github"><i class="fab fa-github"></i> 程式碼</a>
                     </div>
                 </div>
             </div>
 
+            <!-- 專案卡片 2 -->
             <div class="project-card">
-                <div class="project-img" style="background-color: #ddd; height: 200px; display: flex; align-items: center; justify-content: center;">
-                    <i class="fa-solid fa-gamepad fa-3x" style="color: #666;"></i>
+                <div class="project-img">
+                    <div class="project-icon">
+                        <i class="fas fa-gamepad"></i>
+                    </div>
                 </div>
                 <div class="project-info">
                     <h3>2D 冒險遊戲</h3>
-                    <p>使用 Godot 引擎開發的 2D 遊戲作品。包含角色控制、場景切換與互動機制。</p>
+                    <p>使用 Godot 引擎開發的原創 2D 遊戲。包含角色控制、敵人 AI、場景切換與互動機制。</p>
+                    <div class="project-tags">
+                        <span class="tag">Godot</span>
+                        <span class="tag">GDScript</span>
+                        <span class="tag">Game Design</span>
+                    </div>
                     <div class="project-links">
-                        <a href="#">試玩影片</a>
-                        <a href="#"><i class="fab fa-github"></i> Code</a>
+                        <a href="#" class="link-btn">試玩影片</a>
+                        <a href="#" class="link-btn github"><i class="fab fa-github"></i> 程式碼</a>
                     </div>
                 </div>
             </div>
 
+            <!-- 專案卡片 3 -->
             <div class="project-card">
-                <div class="project-img" style="background-color: #ddd; height: 200px; display: flex; align-items: center; justify-content: center;">
-                    <i class="fa-solid fa-code fa-3x" style="color: #666;"></i>
+                <div class="project-img">
+                    <div class="project-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
                 </div>
                 <div class="project-info">
-                    <h3>自動化工具</h3>
-                    <p>基於 Python 的自動化腳本與資料處理工具，提升工作效率。</p>
+                    <h3>自動化工具套件</h3>
+                    <p>基於 Python 的自動化腳本與資料處理工具。提升工作效率，簡化重複性任務。</p>
+                    <div class="project-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">Automation</span>
+                        <span class="tag">Data</span>
+                    </div>
                     <div class="project-links">
-                        <a href="#"><i class="fab fa-github"></i> Code</a>
+                        <a href="#" class="link-btn github"><i class="fab fa-github"></i> 程式碼</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="contact" class="container">
-        <h2 class="section-title">聯絡我</h2>
+    <!-- 聯絡我 Section -->
+    <section id="contact" class="container contact-section">
+        <div class="section-header">
+            <h2 class="section-title">聯絡我</h2>
+            <div class="title-underline"></div>
+        </div>
         <div class="contact-wrapper">
-            <p>有興趣合作或有任何問題？歡迎透過以下方式聯繫。</p>
-            <a href="mailto:your.email@example.com" class="btn">發送郵件</a>
+            <p class="contact-intro">有興趣合作或有任何問題？歡迎透過以下方式聯繫我。</p>
+            <a href="mailto:your.email@example.com" class="btn btn-primary">發送郵件</a>
             
             <div class="social-links">
-                <a href="#"><i class="fab fa-github"></i></a>
-                <a href="#"><i class="fab fa-linkedin"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-icon" title="GitHub"><i class="fab fa-github"></i></a>
+                <a href="#" class="social-icon" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="social-icon" title="Twitter"><i class="fab fa-twitter"></i></a>
             </div>
         </div>
     </section>
 
+    <!-- Footer -->
     <footer>
-        <p>&copy; 2026 MyPortfolio. All Rights Reserved.</p>
+        <p>&copy; 2026 Uly's Portfolio. 保留所有權利。</p>
     </footer>
 
     <script src="script.js"></script>
 </body>
-<<<<<<< HEAD
 </html>
-=======
-</html>
->>>>>>> f210662eaf546318b8aae9d78d2441ec3d7ab0c8
